@@ -17,7 +17,7 @@ namespace ASZN.Web.API.Controllers
             _userService = userService;
         }
 
-        [HttpPost]
+        [HttpPost("register")]
         [ProducesResponseType(StatusCodes.Status201Created)]
         [ProducesResponseType(typeof(IdentityResult), StatusCodes.Status400BadRequest)]
         public async Task<IActionResult> RegisterUser([FromBody] UserCreateDto dto, CancellationToken cancellationToken)
@@ -39,7 +39,7 @@ namespace ASZN.Web.API.Controllers
             }
 
             var token = await _userService.CreateTokenAsync(cancellationToken);
-            return Ok(new UserLoginResponse() { Token = token});
+            return Ok(new UserLoginResponse() { Token = token, Username = dto.UserName});
         }
     }
 }

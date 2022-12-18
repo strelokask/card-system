@@ -1,0 +1,16 @@
+* {
+  --header-height: 64px;
+}
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+}
+
+#root-content {
+  padding-top: var(--header-height);
+}
+
+header {
+  height: var(--header-height);
+}
