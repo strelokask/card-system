@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32929.385
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ASZN.Web.API", "ASZN.Web.API\ASZN.Web.API.csproj", "{1985DA2D-6470-489F-BC23-C71AA5D52330}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ASZN.DomainModel", "ASZN.DomainModel\ASZN.DomainModel.csproj", "{693426A7-3E07-4D20-AAFA-FC10BF08AE64}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ASZN.DAL", "ASZN.DAL\ASZN.DAL.csproj", "{DA6527D4-4CB5-4281-825C-2E20014E39ED}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ASZN.Services", "ASZN.Services\ASZN.Services.csproj", "{4C814759-243E-43BA-889D-1B6375490435}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ASZN.Services.Interface", "ASZN.Services.Interface\ASZN.Services.Interface.csproj", "{AED0DC9C-F750-4AEA-B060-EB68275DFE64}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ASZN.Web.DTO", "ASZN.Web.DTO\ASZN.Web.DTO.csproj", "{C805E9F8-04EE-480D-8E4E-DC7D10316829}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1985DA2D-6470-489F-BC23-C71AA5D52330}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1985DA2D-6470-489F-BC23-C71AA5D52330}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1985DA2D-6470-489F-BC23-C71AA5D52330}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1985DA2D-6470-489F-BC23-C71AA5D52330}.Release|Any CPU.Build.0 = Release|Any CPU
+		{693426A7-3E07-4D20-AAFA-FC10BF08AE64}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{693426A7-3E07-4D20-AAFA-FC10BF08AE64}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{693426A7-3E07-4D20-AAFA-FC10BF08AE64}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{693426A7-3E07-4D20-AAFA-FC10BF08AE64}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA6527D4-4CB5-4281-825C-2E20014E39ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA6527D4-4CB5-4281-825C-2E20014E39ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA6527D4-4CB5-4281-825C-2E20014E39ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA6527D4-4CB5-4281-825C-2E20014E39ED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C814759-243E-43BA-889D-1B6375490435}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C814759-243E-43BA-889D-1B6375490435}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C814759-243E-43BA-889D-1B6375490435}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C814759-243E-43BA-889D-1B6375490435}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AED0DC9C-F750-4AEA-B060-EB68275DFE64}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AED0DC9C-F750-4AEA-B060-EB68275DFE64}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AED0DC9C-F750-4AEA-B060-EB68275DFE64}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AED0DC9C-F750-4AEA-B060-EB68275DFE64}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C805E9F8-04EE-480D-8E4E-DC7D10316829}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C805E9F8-04EE-480D-8E4E-DC7D10316829}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C805E9F8-04EE-480D-8E4E-DC7D10316829}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C805E9F8-04EE-480D-8E4E-DC7D10316829}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {921C3C67-F0A8-4667-BC44-B3113290D395}
+	EndGlobalSection
+EndGlobal
